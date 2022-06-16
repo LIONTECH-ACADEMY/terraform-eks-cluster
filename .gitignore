@@ -1,0 +1,5 @@
+/home/liontechsolutions/eks-terraform-setup/.terraform
+.terraform
+/home/liontechsolutions/eks-terraform-setup/terraform.tfstate
+terraform.tfstate.backup
+/home/liontechsolutions/eks-terraform-setup/.terraform.lock.hcl

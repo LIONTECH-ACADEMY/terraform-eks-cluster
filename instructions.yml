@@ -1,0 +1,34 @@
+Before provisioning eks using terraform, please ensure the following is in place . 
+  - install terraform env. 
+  Install:
+  awscli 
+  kubectl 
+  eksctl
+  Generate/ aws credentials
+    tfenv.
+  Install homebrew: 
+  https://brew.sh/
+  - activate terraform version :  0.12.18
+ KUBECONFIG FILE:
+Make a directory:  
+TERRAFORM COMANDS:
+     terraform init 
+     teraform plan
+     terraform apply. 
+mkdir /.kube/config
+Create your own perm key for the note group:
+  create in aws console.
+................................................
+after provisioning the cluster.... make sure to update your config file. 
+  confirm your identity:
+    aws sts get-caller-identity
+     update kubeconfig file:
+    aws eks update-kubeconfig --region  us-west-1   --name terraform-eks-demo
+
+    post installtions:
+    kubectl create deployment autoscaler-demo --image=nginx
+kubectl get pods --all-namespaces | grep Running | wc -l
+kubectl get nodes -o yaml | grep pods
+kubectl scale deployment autoscaler-demo --replicas=20
+https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+aws-iam-authenticator help
