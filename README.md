@@ -2,8 +2,6 @@
 ### **<span style="color:green">Contacts: LION TECHNOLOGIES<br> WebSite : <LION TECHNOLOGIES/></span>**
 ### **Email: mylandmarktech@gmail.com**
 # LION TECHNOLOGIES,  -    LION TECHNOLOGIES 
-# Tel: +1 437 215 2483,   -     +1 437 215 2483 
-#    www.mylandmarktech.com 
 # Terraform Installation And Setup In AWS EC2 Linux Instances
 #  Using Terraform to provision a fully managed Amazon EKS Cluster
 
